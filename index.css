@@ -7,11 +7,18 @@ body{
 }
 
 #maindiv{
-    border: 0px solid black;
+    border: 1px solid black;
     width: 100%;
     height: 80px;
     display: flex;
 
+}
+
+header{
+    width: 100%;
+    background-color: white;
+    position: fixed;
+    margin-top: -50px;
 }
 
 
@@ -173,12 +180,11 @@ span{
 }
 
 #skills{
-    border: 0px solid black;
+    border: 1px solid black;
     margin-top: 80px;
 }
 
 .our{
-    border: 0px solid black;
     padding-top: -30px;
     font-size: 20px;
     font-weight: bold;
@@ -187,7 +193,6 @@ span{
 }
 
 .various{
-    border: 0px solid black;
     margin-top: -20px;
     font-size: 40px;
     font-weight: bold;
@@ -195,7 +200,6 @@ span{
 }
 
 #first{
-    border: 0px solid black;
     height: 400px;
     width: 1261px;
     justify-content: center;
@@ -205,26 +209,35 @@ span{
 }
 
 .one3{
-    border: 0px solid black;
     border-radius: 12px;
     height: 340px;
     width: 320px;
     display: inline-block;
     justify-content: center;
+    box-shadow: rgb(219, 222, 225,0.4) -10px 30px 70px 0px;
     align-items: center;
     text-align: center;
     margin: 20px;
+    transition: 0.5s ease all;
 }
 
 .one3:hover{
-    
     background-color: rgb(55, 55, 223);
 }
 
 
+.ideate{
+    margin-top: 50px;
+    background-color: whitesmoke;
+    box-shadow: rgb(76, 64, 247, 0.25) -15px 10px 30px 0px;
+    border-radius: 100%;
+    display: inline-block;
+    height: 70px;
+    width: 70px;
+}
 
 .divtitle{
-    border: 0px solid black;
+    border: 0px solid blue;
     color: rgb(17, 16, 41);
     font-weight: 600;
     font-size: 18px;
@@ -232,7 +245,6 @@ span{
 }
 
 #second{
-    border: 0px solid black;
     height: 400px;
     width: 1261px;
     justify-content: center;
@@ -250,22 +262,14 @@ span{
     align-items: center;
     text-align: center;
     margin: 20px;
+    transition: 0.5s ease all;
+    box-shadow: rgb(219, 222, 225,0.4) -10px 30px 70px 0px;
 }
 
 .two3:hover{
     background-color: rgb(55, 55, 223);
 }
 
-.ideate{
-    border: 0px solid black;
-    margin-top: 50px;
-    background-color: whitesmoke;
-    box-shadow: -10px 5px 10px rgb(215, 209, 209);
-    border-radius: 100%;
-    display: inline-block;
-    height: 70px;
-    width: 70px;
-}
 
 
 
@@ -284,6 +288,7 @@ span{
     border-radius: 100%;
     display: inline-block;
     background-color: #ff2d59;
+    box-shadow: rgb(76, 64, 247, 0.25) -15px 10px 30px 0px;
     height: 70px;
     width: 70px;
 }
@@ -299,6 +304,7 @@ span{
     border: 0px solid black;
     margin-top: 50px;
     background-color: rgb(74, 219, 97);
+    box-shadow: rgb(76, 64, 247, 0.25) -15px 10px 30px 0px;
     border-radius: 100%;
     display: inline-block;
     height: 70px;
@@ -319,6 +325,7 @@ span{
     border: 0px solid black;
     margin-top: 50px;
     background-color: rgb(255, 204, 0);
+    box-shadow: rgb(76, 64, 247, 0.25) -15px 10px 30px 0px;
     border-radius: 100%;
     display: inline-block;
     height: 70px;
@@ -340,6 +347,7 @@ span{
     border-radius: 100%;
     display: inline-block;
     background-color: rgb(0, 123, 255);
+    box-shadow: rgb(76, 64, 247, 0.25) -15px 10px 30px 0px;
     height: 70px;
     width: 70px;
 
@@ -358,6 +366,7 @@ span{
     margin-top: 50px;
     border-radius: 100%;
     display: inline-block;
+    box-shadow: rgb(76, 64, 247, 0.25) -15px 10px 30px 0px;
     background-color:rgb(255, 104, 0);
     height: 70px;
     width: 70px;
@@ -419,7 +428,7 @@ span{
 }
 
 #videodivmain{
-    border: 0px solid black;
+    background-image: url('./documentaionBackground.svg');
     height: 500px;
     display: flex;
     align-items: center;
@@ -446,8 +455,11 @@ video{
 }
 
 .customer1{
-    border: 1px solid black;
+    border: 2px solid rgb(239, 10, 10);
     height: 650px;
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
     width: 600px;
     padding-left: 80px;
        
@@ -456,39 +468,34 @@ video{
 
 .products1{
     
-    border: 1px solid black;
-    
+    border: 0px solid red;
     height: 315px;
     width: 250px;
-    display: inline-block;
     padding-left: 20px;
     
 }
 
 .products2{
-    border: 1px solid black;
+    border: 0px solid red;
 
     height: 315px;
     width: 250px;
-    display: inline-block;
     padding-left: 20px;
 
 }
 
 .products3{
-    border: 1px solid black;
+    border: 0px solid red;
     height: 315px;
     width: 250px;
-    display: inline-block;
     padding-left: 20px;
 
 }
 
 .products4{
-    border: 1px solid black;
+    border: 0px solid red;
     height: 315px;
     width: 250px;
-    display: inline-block;
     padding-left: 20px;
 
 } 
